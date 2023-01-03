@@ -11,15 +11,15 @@ import os
 @dataclass_json
 @dataclass
 class Entity:
-    id: str
+    # id: str
     name: str
 
 
 @dataclass_json
 @dataclass
 class Actor:
-    id: str
-    image: str
+    # id: str
+    # image: str
     name: str
     asCharacter: str
 
@@ -27,7 +27,7 @@ class Actor:
 @dataclass_json
 @dataclass
 class KeyValue:
-    key: str
+    # key: str
     value: str
 
 
@@ -43,7 +43,7 @@ class BoxOffice:
 @dataclass_json
 @dataclass
 class Title:
-    id: str
+    # id: str
     title: str
     year: str
     releaseDate: str
